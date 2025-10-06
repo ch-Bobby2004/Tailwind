@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-color {    
+    @apply text-[#C7AF9F];
+}
+.hover-color {    
+    @apply hover:text-[#ffffff]  hover:scale-110  transition-all ease-in-out duration-500;
+}
+.back-none {    
+    @apply bg-none;
+}
